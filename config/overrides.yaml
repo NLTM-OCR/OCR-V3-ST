@@ -1,0 +1,5 @@
+- trainer.gpus=2
+- trainer.max_epochs=40
+- charset=malayalam
+- data.root_dir=/ssd_scratch/cvit/rafaelgetto/parseq_malayalam
+- model.max_label_length=54
