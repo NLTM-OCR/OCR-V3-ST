@@ -29,7 +29,7 @@ from strhub.models.utils import load_from_checkpoint, parse_model_args
 @torch.inference_mode()
 def infer_and_save():
 	parser = argparse.ArgumentParser()
-	parser.add_argument('checkpoint', help="Model checkpoint (or 'pretrained=<model_id>')")
+	parser.add_argument('--checkpoint', help="Model checkpoint (or 'pretrained=<model_id>')")
 	parser.add_argument('--input_location', default='/data', help='Input image directory')
 	parser.add_argument('--device', default='cuda')
 	parser.add_argument('--output_location', default='/data')
