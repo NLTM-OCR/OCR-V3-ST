@@ -1,7 +1,7 @@
 # SceneText Word Recognition for Indic Languages
 
 ## Pretrained Models:
-- You can find the pretrained models for V3 scenetext for 13 languages under the [Assets](https://github.com/NLTM-IIITH/OCR-V3-ST/releases/tag/v3).
+- You can find the pretrained models for V3 scenetext for 13 languages under the [Assets](https://github.com/NLTM-OCR/OCR-V3-ST/releases/tag/v3).
 
 ## Setup
 - Using Python = 3.10+
